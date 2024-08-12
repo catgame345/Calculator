@@ -20,7 +20,7 @@ defmodule Main do
     end
 
     case val do
-      {:ok, op} -> getX(name, :calc(op))
+      {:ok, op} -> getX(name, op)
       :error -> :input_value
     end
   end
@@ -50,7 +50,7 @@ defmodule Main do
     end
 
     case val do
-      {:ok, y} -> :calc.calcu(op, x, y)
+      {:ok, y} -> :calc.calc(op, x, y)
       :error -> :input_value
     end
   end
