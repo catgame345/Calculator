@@ -4,5 +4,5 @@
 3. Elixir.
 4. Crystal.
 5. Dart.
-6. TypeScript.
+---
 ### C# Coming soon.
