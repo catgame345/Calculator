@@ -104,7 +104,7 @@ def getName
     name
 end
 
-def start
+def init
     name = getName
     
     start = Main.new name
@@ -112,4 +112,4 @@ def start
     start.init
 end
 
-start
+init
